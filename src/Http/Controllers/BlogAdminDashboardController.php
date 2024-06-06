@@ -8,6 +8,6 @@ class BlogAdminDashboardController extends Controller
 {
     public function index()
     {
-        return "DASHBOARD";
+        return view('adm_blog::index');
     }
 }
