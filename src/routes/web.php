@@ -3,7 +3,7 @@
  * Created By PhpStorm
  * User: trungphuna
  * Date: 6/4/24
- * Time: 3:42 PM
+ * Time: 3:42  PM
  */
 
 use Illuminate\Support\Facades\Route;

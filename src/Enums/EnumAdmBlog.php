@@ -14,7 +14,6 @@ class EnumAdmBlog
     const STATUS_PUBLISHED = 2;
     const STATUS_DRAFT = -1;
 
-
     const GET_TEXT_STATUS = [
         self::STATUS_PENDING   => [
             'name'  => 'Pending',

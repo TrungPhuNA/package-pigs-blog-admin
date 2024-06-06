@@ -24,6 +24,7 @@ return new class extends Migration {
             $table->tinyInteger('index')->default(1);
             $table->timestamps();
         });
+
         Schema::create(config('adm_blog_config.table.tags'), function (Blueprint $table) {
             $table->id();
             $table->string('name')->nullable();
