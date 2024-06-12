@@ -2,4 +2,5 @@
 
 
 ## Setting
-`composer require pigs/blog-admin`
+* composer require pigs/blog-admin
+* Pigs\BlogAdmin\Provides\BlogAdminProvider::class
