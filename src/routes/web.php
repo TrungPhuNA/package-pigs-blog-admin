@@ -38,12 +38,12 @@ Route::group(['namespace' => 'Pigs\BlogAdmin\Http\Controllers','prefix' => 'admi
     Route::group(['prefix' => 'article'], function (){
         Route::get('','BlogAdminArticlesController@index')->name('get.adm_blog.article.index');
 
-        Route::get('create','BlogAdminArticlesController@create');
+        Route::get('create','BlogAdminArticlesController@create')->name('get.adm_blog.article.create');
         Route::post('create','BlogAdminArticlesController@store');
 
-        Route::get('update/{id}','BlogAdminArticlesController@edit');
+        Route::get('update/{id}','BlogAdminArticlesController@edit')->name('get.adm_blog.article.update');
         Route::post('update/{id}','BlogAdminArticlesController@update');
 
-        Route::get('delete/{id}','BlogAdminArticlesController@delete');
+        Route::get('delete/{id}','BlogAdminArticlesController@delete')->name('get.adm_blog.article.delete');
     });
 });
